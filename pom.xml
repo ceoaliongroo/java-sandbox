@@ -7,6 +7,23 @@
     <groupId>com.aliongroo</groupId>
     <artifactId>examples</artifactId>
     <version>0.1.0</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>4.1.7.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot</artifactId>
+            <version>1.2.5.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>1.2.5.RELEASE</version>
+        </dependency>
+    </dependencies>
     <packaging>war</packaging>
 
     <build>
